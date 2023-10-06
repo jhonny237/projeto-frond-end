@@ -1,0 +1,66 @@
+.shop{
+    background-color: #1E1E1E;
+    height: 50em    ;
+    width: auto;
+    padding-top: 1em;
+
+
+}
+
+.shop-txt{
+    display: flex;
+    margin-bottom: 2em;
+    color: white;
+    font-size: 2em;
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+}
+
+.container-shop{
+    margin: 4em;
+
+}
+
+.shop-img{
+    display: flex;
+    justify-content: space-between;
+}
+
+.shop-img img{
+    max-width: 28%;
+}
+
+.shop-img__txt{
+    display: flex;
+    justify-content: space-between;
+    margin: 2em 2em;
+    font-size: 2em;
+    font-family: "Inter", sans-serif;
+    font-weight: 800;
+    color: white;
+
+}
+
+.linha{
+    max-width: 65%;
+    padding-left: 0.3em;
+    
+
+}
+
+.container-buttom{
+    display: flex;
+    justify-content: center;
+}
+
+.shop-buttom{
+    
+    text-decoration: none;
+    font-family: "Inter", sans-serif;
+    font-weight: 800;
+    border: solid 2px var(--verde);
+    padding: 1.3em;
+    border-radius: 0.7em;
+    color: white;
+
+}

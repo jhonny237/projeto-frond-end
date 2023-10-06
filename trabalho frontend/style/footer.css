@@ -1,0 +1,21 @@
+.rodape{
+    background-color: #FFFFFF;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    text-decoration: underline;
+    height: 15em;
+}
+
+.titulo-footer{
+    margin-top: 2em;
+    font-size: 1.7em;
+    font-weight: 700;
+}
+
+.txt-footer{
+    padding: 0.6em;
+    font-weight: 500;
+}

@@ -1,0 +1,102 @@
+
+
+
+.banner{
+    display: flex;
+    padding: 2em;
+    margin-top: -5em;
+}
+
+.banner-txt{
+    font-family: "inter", sans-serif;
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 5em;
+    
+    
+}
+
+.container__banner{
+    display: flex;
+    background-color: white;
+    padding: 2.5em;
+    border-bottom: 5px solid var(--verde);
+    
+}
+
+.menu__titulo{
+    font-size: 2em;
+    margin-bottom: 0.5em;
+}
+
+.lista-banner{
+    display: flex;
+   
+   
+    
+}
+
+.buttom-banner{
+    margin-left: 15em;
+    display: flex;
+    gap: 1em;
+
+
+}
+
+.lista-banner__link{
+    padding: 1em;
+    text-decoration: none;
+    color: black;
+    font-family: "Inter",sans-serif;
+    font-weight: 700;
+}
+
+.lista-item{
+    text-decoration: none;
+    font-family: "Inter",sans-serif;
+    font-weight: 700;
+    background-color: black;
+    color: white;
+    padding: 1em 3em;
+    border-radius: 0.5em;
+}
+
+@media screen and (max-width: 1445px) {
+    .buttom-banner{
+        display: flex;
+        margin-left: 8em;
+        margin-top: 3em;
+
+    }
+    
+    body{
+        width:fit-content;
+
+    }
+
+    .moto-img{
+        max-width: 70%;
+    }
+
+    .banner{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .lista-banner{
+        display: flex;
+        flex-direction: column;
+        gap: 1.2em;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .lista__banner__conteudo{
+       
+        margin-bottom: 10px;
+    }
+}

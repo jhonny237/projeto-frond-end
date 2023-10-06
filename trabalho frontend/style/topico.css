@@ -1,0 +1,55 @@
+.topico__titulo{
+    font-size: 2em;
+    margin: 1em 2em;
+    font-weight: 700;
+    font-family: "Inter",sans-serif;
+}
+
+
+
+
+
+.topico1{
+    display: flex;
+    margin: 4em;
+    gap: 2em;
+
+}
+
+.img-topico{
+    max-width: 45%;
+}
+
+.topico-txt{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-family: "Inter",sans-serif;
+}
+
+.topico-titulo{
+    font-size: 3em;
+    font-weight: 700;
+    
+}
+
+.topico-subtitulo{
+    font-size: 2em;
+    font-weight: 600;
+}
+
+.topico-texto{
+    font-size: 1em;
+    font-weight: 500;
+    font-size: 1.5em;
+
+}
+
+.topico-buttom{
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    width: 8.5em;
+    padding: 1em;
+    font-weight: 700;
+}

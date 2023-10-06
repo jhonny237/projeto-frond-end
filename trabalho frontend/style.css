@@ -1,0 +1,25 @@
+@import url(style/header.css);
+@import url(style/banner.css);
+@import url(style/topico.css);
+@import url(style/shop.css);
+@import url(style/footer.css);
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600;500;400;300;700&display=swap');
+
+:root{
+    --cor-de-fundo:#DEDEDE; 
+    --preto:#282828;
+    --cor-fonte:#FFFFFF;    
+    --verde:#1DB718;
+    --fonte-principal:"Inter";    
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: var(--cor-de-fundo);
+    font-family: "Inter", sans-serif;
+}
